@@ -84,7 +84,7 @@ blockquote, q {
         display: inline-block;
         padding: 1% 0;
         width: 10%;
-        border-radius: 10px;
+        border-radius: 20px;
         text-align: center;
         color: #fff;
     }
@@ -113,16 +113,21 @@ blockquote, q {
         width: 35%;
     }
     .left img{
-        width: 80%;
+        width: 60%;
+        height: 60%;
         border-radius: 50%;
     }
     .right{
         width: 60%;
         position: absolute;
-        top: 45%;
+        top: 30%;
     }
     
     /* Middle Section Styles */
+    .p{
+        color: #fff;
+        background-color: #DDB9A3;
+    }
     .fire img{
         display: block;
         margin-left: auto;
@@ -138,8 +143,9 @@ blockquote, q {
 
     /* Footer Section Styles */
     .empty img{
-        height: 100vh;
-        max-height: 200px;
+        object-fit: cover;
+        object-position: 50% 0;
+        height: 480px;
         width: 100vw;
         overflow: hidden;
     }
