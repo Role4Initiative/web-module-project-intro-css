@@ -48,6 +48,11 @@ blockquote, q {
         font-size: 1.6rem;
         line-height: 1.5;
         color: #4f4f4f; /*accessability*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5rem;
     }
     section{
         padding: 4% 0;
@@ -55,6 +60,7 @@ blockquote, q {
     }
     a{
         text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
     }
 
     /* Header Section Styles */
@@ -68,4 +74,37 @@ blockquote, q {
         border-radius: 10px;
         text-align: center;
         color: #fff;
+    }
+    .orange{
+        background-color: #FF764E;
+        margin-left: 10%;
+    }
+    .blue{
+        background-color: #5ED3EB;
+        margin: 0 24%;
+    }
+    .yellow{
+        background-color: #FFCD69;
+        margin-right: 10%;
+    }
+
+    /* Top Section Styles */
+    .top{
+        position: relative;
+    }
+    .left, .right{
+        text-align: center;
+        display: inline-block;
+    }
+    .left{
+        width: 35%;
+    }
+    .left img{
+        width: 80%;
+        border-radius: 50%;
+    }
+    .right{
+        width: 60%;
+        position: absolute;
+        top: 45%;
     }
