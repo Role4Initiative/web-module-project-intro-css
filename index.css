@@ -55,16 +55,17 @@ blockquote, q {
     }
     h1{
         font-family: 'Chelsea Market', cursive;
-        font-size: 5rem;
+        font-size: 9rem;
     }
     h2{
         font-family: 'Roboto Mono', monospace;
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
+        margin:2%;
     }
     div.right p{
         font-family: 'Roboto Mono', monospace;
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
     }
     section{
@@ -82,23 +83,24 @@ blockquote, q {
     }
     nav a{
         display: inline-block;
-        padding: 1% 0;
-        width: 10%;
+        padding: .5% 0;
+        width: 13%;
         border-radius: 20px;
         text-align: center;
+        font-size: 3rem;
         color: #fff;
     }
     .orange{
         background-color: #FF764E;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .blue{
         background-color: #5ED3EB;
-        margin: 0 24%;
+        margin: 0 14%;
     }
     .yellow{
         background-color: #FFCD69;
-        margin-right: 10%;
+        margin-right: 15%;
     }
 
     /* Top Section Styles */
@@ -120,13 +122,17 @@ blockquote, q {
     .right{
         width: 60%;
         position: absolute;
-        top: 30%;
+        top: 20%;
     }
     
     /* Middle Section Styles */
     .p{
         color: #fff;
+        font-size: 3rem;
+        text-align: center;
         background-color: #DDB9A3;
+        padding: 1%;
+        margin: 2.5%;
     }
     .fire img{
         display: block;
@@ -134,11 +140,17 @@ blockquote, q {
         margin-right: auto;
         width:10%;
     }
+    .fire p{
+        text-align: center;
+    }
     .reservations img{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 10%;
+    }
+    .reservations p{
+        text-align: center;
     }
 
     /* Footer Section Styles */
