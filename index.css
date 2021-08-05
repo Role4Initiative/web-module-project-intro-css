@@ -40,7 +40,6 @@ blockquote, q {
         margin: 0;
         max-width: 100%;
         font-family: 'Roboto Mono', monospace;
-        border: 1px solid red;
     }
 
     /* General Styles */
