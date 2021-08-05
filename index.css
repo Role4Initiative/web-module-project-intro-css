@@ -56,6 +56,8 @@ blockquote, q {
         font-family: 'Chelsea Market', cursive;
         font-size: 9rem;
     }
+    h1:hover{
+    }
     h2{
         font-family: 'Roboto Mono', monospace;
         font-size: 3rem;
@@ -88,6 +90,10 @@ blockquote, q {
         text-align: center;
         font-size: 3rem;
         color: #fff;
+    }
+    nav a:hover{
+        font-size: 3.25rem;
+        color: black;
     }
     .orange{
         background-color: #FF764E;
