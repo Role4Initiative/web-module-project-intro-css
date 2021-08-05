@@ -1,0 +1,171 @@
+/* CSS Reset Code */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    }
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    /* End CSS Reset Code */
+
+    /* Universal Selector Styles */
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    /* General Styles */
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #4f4f4f; /*accessability*/
+        font-family: 'Roboto Mono', monospace;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 9rem;
+    }
+    h1:hover{
+    }
+    h2{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 3rem;
+        text-align: center;
+        margin:2%;
+    }
+    div.right p{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 3rem;
+        text-align: center;
+    }
+    section{
+        padding: 4% 0;
+    
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    /* Header Section Styles */
+    nav{
+        padding: 2% 0;
+    }
+    nav a{
+        display: inline-block;
+        padding: .5% 0;
+        width: 13%;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 3rem;
+        color: #fff;
+    }
+    nav a:hover{
+        font-size: 3.25rem;
+        color: black;
+    }
+    .orange{
+        background-color: #FF764E;
+        margin-left: 15%;
+    }
+    .blue{
+        background-color: #5ED3EB;
+        margin: 0 14%;
+    }
+    .yellow{
+        background-color: #FFCD69;
+        margin-right: 15%;
+    }
+
+    /* Top Section Styles */
+    .top{
+        position: relative;
+    }
+    .left, .right{
+        text-align: center;
+        display: inline-block;
+    }
+    .left{
+        width: 35%;
+    }
+    .left img{
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+    }
+    .right{
+        width: 60%;
+        position: absolute;
+        top: 20%;
+    }
+    
+    /* Middle Section Styles */
+    .p{
+        color: #fff;
+        font-size: 3rem;
+        text-align: center;
+        background-color: #DDB9A3;
+        padding: 1%;
+        margin: 2.5%;
+    }
+    .fire img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:10%;
+    }
+    .fire p{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+    .reservations img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .reservations p{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* Footer Section Styles */
+    .empty img{
+        object-fit: cover;
+        object-position: 50% 0;
+        height: 480px;
+        width: 100vw;
+        overflow: hidden;
+    }
