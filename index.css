@@ -141,6 +141,8 @@ blockquote, q {
     }
     .fire p{
         text-align: center;
+        font-size: 2rem;
+        margin-bottom: 5%;
     }
     .reservations img{
         display: block;
@@ -150,6 +152,7 @@ blockquote, q {
     }
     .reservations p{
         text-align: center;
+        font-size: 2rem;
     }
 
     /* Footer Section Styles */
